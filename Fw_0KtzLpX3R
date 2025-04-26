@@ -147,7 +147,7 @@ local indiceActual = 1
 
 local function playersinScreenWithSkull()
     for _, spec in ipairs(getSpectators()) do
-        if spec ~= player and spec:isPlayer() and spec:getSkull() == 3 then
+        if spec ~= player and spec:isPlayer() and spec:getSkull() == 1 then
             return true
         end
     end
